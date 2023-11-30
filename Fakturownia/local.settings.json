@@ -1,0 +1,44 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "Account": {
+    "Username": "Login",
+    "Password": "Password"
+  },
+  "Seller": {
+    "Name": "Nazwa",
+    "Tax_Identify": "123",
+    "Street": "Ulica 1",
+    "Postal_Code": "11-111",
+    "City": "Miasto",
+    "Country": "PL",
+    "Bank_Account": "123456789",
+    "Bank": "Bank",
+    "Email": "test@test.pl",
+    "Phone": "123123123"
+  },
+  "Services": {
+    "Romania": {
+      "URL_API": "https://marketplace-api.emag.ro/api-3",
+      "Lang": "ro",
+      "Currency": "RON"
+    },
+    "Bulgaria": {
+      "URL_API": "https://marketplace-api.emag.bg/api-3",
+      "Lang": "bg",
+      "Currency": "BGN"
+    },
+    "Hungary": {
+      "URL_API": "https://marketplace-api.emag.hu/api-3",
+      "Lang": "hu",
+      "Currency": "HUF"
+    }
+  },
+  "InvoiceService": {
+    "URL": "https://nazwa.fakturownia.pl/invoices",
+    "API_TOKEN": "token"
+  }
+}
